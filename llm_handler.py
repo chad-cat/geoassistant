@@ -37,5 +37,5 @@ def ask_image_query(prompt, image):
         response = gemini_vision.generate_content([prompt, image])
         return response.text
     else:
-        return "❌ Image input only supported for Gemini right now."
+        return " Image input only supported for Gemini right now."
 
