@@ -16,7 +16,7 @@ A command-line assistant powered by OpenAI or Gemini, built for geology-related 
    streamlit run app.py
 
 
-##Configure .env
+## Configure .env
 
 LLM_PROVIDER=gemini          # or "openai"
 OPENAI_API_KEY=your_key
