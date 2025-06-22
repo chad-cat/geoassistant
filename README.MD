@@ -13,6 +13,7 @@ A command-line assistant powered by OpenAI or Gemini, built for geology-related 
 1. **Install dependencies**
    ```bash
    pip install -r requirements.txt
+   streamlit run app.py
 
 
 ##Configure .env
@@ -21,9 +22,6 @@ LLM_PROVIDER=gemini          # or "openai"
 OPENAI_API_KEY=your_key
 GEMINI_API_KEY=your_key
 
-## then simply run
-
-python main.py
 
 Choose from:
 
