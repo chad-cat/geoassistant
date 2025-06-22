@@ -12,8 +12,8 @@ if llm_provider == "openai":
 elif llm_provider == "gemini":
     import google.generativeai as genai
     genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-    gemini_text = genai.GenerativeModel("models/gemini-pro")
-    gemini_vision = genai.GenerativeModel("models/gemini-pro-vision")
+    gemini_text = genai.GenerativeModel("gemini-pro")
+    gemini_vision = genai.GenerativeModel("gemini-pro-vision")
 
 else:
     raise ValueError("Unsupported LLM_PROVIDER in .env file")
