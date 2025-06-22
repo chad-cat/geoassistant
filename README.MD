@@ -1,4 +1,4 @@
-# LLM Geology Assistant
+#  Geology Assistant
 
 A command-line assistant powered by OpenAI or Gemini, built for geology-related tasks:
 
@@ -19,7 +19,9 @@ A command-line assistant powered by OpenAI or Gemini, built for geology-related 
 ## Configure .env
 
 LLM_PROVIDER=gemini          # or "openai"
+
 OPENAI_API_KEY=your_key
+
 GEMINI_API_KEY=your_key
 
 
